@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-function SearchBar() {
+function Home() {
 const [movieTitle, setMovieTitle] = useState("");
+
 
 return (
 <> <h1>Movie Search App</h1>
 
-```
+
   <input
     type="text"
     placeholder="Enter movie title"
@@ -21,4 +22,4 @@ return (
 );
 }
 
-export default SearchBar;
+export default Home;
